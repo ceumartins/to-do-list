@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(232, 194, 234);
+  padding: 200px;
+}
+
+card {
+  display: flex;
+  width: 400px;
+  min-height: 400px;
+  margin: auto;
+  border-radius: 2%;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background-color: rgb(101, 55, 103);
+  padding-top: 20px;
+}
+
+h1 {
+  color: white
+}
+
+button {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgb(7, 250, 197);
+  color: rgb(101, 55, 103);
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+}
+
+button:hover{
+  background-color: rgb(232, 194, 234);
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(232, 194, 234);
+  font-size: 16px;
+}
+
+#tasks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  color: rgb(7, 250, 197);
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: white;
+}
